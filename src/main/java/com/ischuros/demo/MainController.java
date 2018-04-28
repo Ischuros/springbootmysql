@@ -23,4 +23,9 @@ public class MainController {
 	public Iterable<User> getAllUsers() {
 		return userRepository.findAll();
 	}
+
+	@GetMapping(path="/filter")
+	public Iterable<User> getAllUsersByEmail(@RequestParam("email") String partOfEmail) {
+		return userRepository.findByEmailLike(partOfEmail);
+	}
 }
