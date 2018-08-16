@@ -12,6 +12,12 @@
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
 
+    <scm>
+        <url>https://github.com/Ischuros/springbootmysql.git</url>
+        <connection>scm:git:git://github.com/Ischuros/springbootmysql.git</connection>
+        <developerConnection>scm:git:git@github.com:Ischuros/springbootmysql.git</developerConnection>
+    </scm>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
